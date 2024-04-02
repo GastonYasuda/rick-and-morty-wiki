@@ -1,6 +1,12 @@
 .mainComponent{
     width: 100%;
+    height: 100vh;
     position: relative;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainComponent__body{
+    flex: 1  auto;
 }
 
