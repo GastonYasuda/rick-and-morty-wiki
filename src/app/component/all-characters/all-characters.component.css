@@ -6,9 +6,14 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     border: none;
     background: none;
+}
+
+.characterCard{
+    text-align: center;
 }
 
 .characterCardButton {
