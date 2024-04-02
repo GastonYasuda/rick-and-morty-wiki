@@ -1,0 +1,27 @@
+@if(!loading){
+  <div class="spinner-grow" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+}
+@if(loading){
+
+  <div class="allCharactersContainer">
+    
+    <h3>All Characters</h3>
+    <div class="characterCard">
+      @for(eachCharacter of allCharacters; track $index){
+        @for(character of eachCharacter; track $index){
+          <button class="characterCardButton" type="button" [routerLink]="['/characterDetail/' + character.id]"  >
+            <div class="card" >
+              <div class="card-img-overlay">
+                <span class="cardName">{{ character.name }}</span>
+              </div>
+              <img class="cardImage" src="{{ character.image }}" alt="{{ character.name }}"  />
+            </div>
+          </button>
+        }
+      }
+    </div>
+  </div>
+
+}

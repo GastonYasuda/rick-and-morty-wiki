@@ -1,0 +1,16 @@
+.detailCard{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+    & .card{
+        width: 70%;
+        min-width: 250px;
+    }
+    & img{
+        width: 100%;
+        
+    }
+}

@@ -1,0 +1,72 @@
+.locationContainer{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+
+    & .locationContainer__data{
+        display: flex;
+        justify-content: center;
+      
+        & .card-header{
+            text-align: center;
+        }
+        
+        & button {
+            border: none;
+            background-color: transparent;
+        }
+    }
+    
+    & .locationContainer__residents{
+        margin: 40px;
+        & h3{
+            text-align: center;
+        }
+
+
+        & .locationContainer__residents-card{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 5px 5px;
+
+
+            & button {
+                border: none;
+                background-color: transparent;
+
+                & .card{
+                    border: none;
+                    position: relative;
+                    width: 250px;
+                    height: 250px;
+                    overflow: hidden;
+                
+                    & .cardImage{
+                        width: 250px;
+                        z-index: 5;
+                        transition: all 1s;
+                    }    
+                    & .cardImage:hover{
+                        border-radius: 15px; 
+                        width: 280px;
+                    }
+                
+                    
+                    & .cardName{
+                        position: absolute;
+                        width: 100%;
+                        background-color: rgba(0, 0, 0, 0.426);
+                        bottom: 0;
+                        right: 0;
+                        padding: 15px;
+                        color: #fff;
+                        z-index: 6;
+                    }
+                }
+            }
+        }
+    }
+
+}

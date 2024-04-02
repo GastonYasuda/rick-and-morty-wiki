@@ -1,0 +1,32 @@
+<div class="allCharactersContainer">
+
+    <h3>Search Result</h3>
+
+    <div class="characterCard">
+        @if(!byNumberOrString){
+            <p>Total Results: {{searchResult?.length}}</p>
+            @for(result of searchResult; track $index){            
+                <button class="characterCardButton" type="button" [routerLink]="['/characterDetail/' + result?.id]"  >
+                    <div class="card" >
+                    <div class="card-img-overlay">
+                        <span class="cardName">{{ result?.name }}</span>
+                    </div>
+                    <img class="cardImage" src="{{ result?.image }}" alt="{{ result?.name }}"  />
+                    </div>
+                </button>
+            
+            }
+        }
+
+        @if(byNumberOrString){
+            <button class="characterCardButton" type="button" [routerLink]="['/characterDetail/' + searchResultByNumber?.id]"  >
+                <div class="card" >
+                <div class="card-img-overlay">
+                    <span class="cardName">{{ searchResultByNumber?.name }}</span>
+                </div>
+                <img class="cardImage" src="{{ searchResultByNumber?.image }}" alt="{{ searchResultByNumber?.name }}"  />
+                </div>
+            </button>            
+        }
+    </div>
+</div>

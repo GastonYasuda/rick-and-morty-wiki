@@ -1,0 +1,96 @@
+/* --------------------------------------------------- CHARACTER CARDS */
+
+.characterContainer{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.characters {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.characterCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    background: none;
+}
+
+.card{
+    border: none;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+
+    & .card-header{
+        text-align: center;
+    }
+
+    & .cardImage{
+        width: 250px;
+        z-index: 5;
+        transition: all 1s;
+    }    
+    & .cardImage:hover{
+        border-radius: 15px; 
+        width: 280px;
+    }
+
+    
+    & .cardName{
+        position: absolute;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.426);
+        bottom: 0;
+        right: 0;
+        padding: 15px;
+        color: #fff;
+        z-index: 6;
+    }
+  
+}
+
+
+/* ---------------------------------------------------SCROLL BAR */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, .05);
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background: #2B3035;
+}  
+
+
+/* ---------------------------------------------------PAGES */
+
+.pages{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+
+    & .btn-primary{
+        color: #fff;
+    }
+}
+
+
+/* ---------------------------------------------------SEE ALL CHARACTER BUTTON */
+
+.seeAllCharacterButton{
+    margin-top: 15px;
+    text-align: center;
+}

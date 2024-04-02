@@ -1,0 +1,51 @@
+.allCharactersContainer{
+    width: 90%;
+    margin: auto;
+    
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border: none;
+    background: none;
+}
+
+.characterCardButton {
+    border: none;
+    background: none;
+}
+.card{
+    border: none;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+
+    & .card-header{
+        text-align: center;
+    }
+
+    & .cardImage{
+        width: 250px;
+        z-index: 5;
+        transition: all 1s;
+    }    
+    & .cardImage:hover{
+        border-radius: 15px; 
+        width: 280px;
+    }
+
+    
+    & .cardName{
+        position: absolute;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.426);
+        bottom: 0;
+        right: 0;
+        padding: 15px;
+        color: #fff;
+        z-index: 6;
+    }
+  
+}
