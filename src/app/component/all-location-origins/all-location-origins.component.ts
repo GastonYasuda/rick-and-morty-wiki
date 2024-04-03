@@ -16,7 +16,7 @@ export class AllLocationOriginsComponent implements OnInit{
   @Input() locationOrigin?:String;
 
   private _apiService = inject(ApiServiceService)
-  allLocations?:Result[];
+  allLocations?:Result[]=[];
 
   ngOnInit(): void {
 
@@ -25,5 +25,6 @@ export class AllLocationOriginsComponent implements OnInit{
     })
     
   }
+
 
 }

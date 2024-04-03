@@ -34,9 +34,5 @@ export class CharactersComponent implements OnInit {
     });
   }
 
-  linkToCharacterId(id:number){
-    console.log(id);
-    this._router.navigate([`/characterDetail/${id}`])
 
-  }
 }

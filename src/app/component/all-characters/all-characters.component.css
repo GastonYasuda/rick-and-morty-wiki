@@ -1,7 +1,6 @@
 .allCharactersContainer{
     width: 90%;
-    margin: auto;
-    
+    margin: auto;    
     margin-top: 40px;
     display: flex;
     flex-direction: column;
