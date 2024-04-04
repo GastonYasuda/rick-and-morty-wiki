@@ -42,8 +42,6 @@ constructor(private formBuilder:FormBuilder){
 
   selectMenu(event:String){
     this.selectedMenu = event
-    console.log(this.selectedMenu);
-    
   }
 
 }

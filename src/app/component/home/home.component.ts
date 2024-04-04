@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 import { CharactersComponent } from '../../container/characters/characters.component';
 import { AllLocationOriginsComponent } from '../all-location-origins/all-location-origins.component';
 import { FooterComponent } from '../footer/footer.component';
@@ -11,7 +11,5 @@ import { FooterComponent } from '../footer/footer.component';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-
-
 
 }
