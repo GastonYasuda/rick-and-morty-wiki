@@ -19,7 +19,7 @@
     }
     
     & .locationContainer__residents{
-        margin: 40px;
+        margin: 40px 0;
         & h3{
             text-align: center;
         }
@@ -39,18 +39,20 @@
                 & .card{
                     border: none;
                     position: relative;
-                    width: 250px;
-                    height: 250px;
+                    width: 150px;
+                    height: 190px;
                     overflow: hidden;
+                    object-fit: contain;
                 
                     & .cardImage{
                         width: 250px;
                         z-index: 5;
-                        transition: all 1s;
+                        translate: -20%;
+                        transition: transform 1s;
                     }    
                     & .cardImage:hover{
                         border-radius: 15px; 
-                        width: 280px;
+                        transform: scale(1.3);
                     }
                 
                     

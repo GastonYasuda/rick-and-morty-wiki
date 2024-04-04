@@ -3,12 +3,11 @@
     <div class="locationContainer__data">
 
         <div class="card border-dark mb-3" style="max-width: 18rem;">
-            <div class="card-header">Location: {{selectedLocation?.name}}</div>
+            <div class="card-header">Type: {{selectedLocation?.type}}</div>
             <div class="card-body">
                 <h5 class="card-title">{{selectedLocation?.name}}</h5>
-                <span class="card-text">Type: {{selectedLocation?.type}}</span><br/>
                 <span class="card-text">Dimension: {{selectedLocation?.dimension}}</span><br/>
-                <span class="card-text">Created: {{selectedLocation?.created}}</span><br/>
+                <span class="card-text">Created: {{selectedLocation?.created | date: 'short'}}</span><br/>
                 
                 @if(selectedLocation?.residents?.length!==0){
                     <span class="card-text">Total Residents: {{selectedLocation?.residents?.length}} </span> 

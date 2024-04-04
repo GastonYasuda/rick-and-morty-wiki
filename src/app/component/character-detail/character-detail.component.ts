@@ -1,12 +1,12 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { ApiServiceService } from '../../services/api-service.service';
-import { Result } from '../../../model/character.model';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-character-detail',
   standalone: true,
-  imports: [RouterLink],
+  imports: [RouterLink,CommonModule],
   templateUrl: './character-detail.component.html',
   styleUrl: './character-detail.component.css'
 })

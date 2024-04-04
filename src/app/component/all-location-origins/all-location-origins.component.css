@@ -13,9 +13,10 @@
         & .locationButton{
             border: none;
             background-color: transparent;
+            width: 250px;
             
             & .card-body{
-                height: 175px;
+                height: 222px;
             }
         }
 

@@ -11,7 +11,7 @@
                     <div class="card-body">
                         <h5 class="card-title">{{location?.name}}</h5>
                         <span class="card-text">Dimension: {{location?.dimension}}</span><br/>
-                        <span class="card-text">Created: {{location?.created}}</span><br/>
+                        <span class="card-text">Created: {{location?.created | date: 'short'}}</span><br/>
                         <span class="card-text">Residents: {{location?.residents?.length}}</span><br/>
                     </div>
                 </div>

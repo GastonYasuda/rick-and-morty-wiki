@@ -3,11 +3,12 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 import { ApiServiceService } from '../../services/api-service.service';
 import { Result } from '../../../model/character.model';
 import { AllLocationOriginsComponent } from '../../component/all-location-origins/all-location-origins.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-location',
   standalone: true,
-  imports: [RouterLink, AllLocationOriginsComponent],
+  imports: [RouterLink, AllLocationOriginsComponent,CommonModule ],
   templateUrl: './location.component.html',
   styleUrl: './location.component.css'
 })
