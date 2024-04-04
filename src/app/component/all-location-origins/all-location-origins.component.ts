@@ -1,4 +1,4 @@
-import { Component, Input, OnInit, inject } from '@angular/core';
+import { Component, ElementRef, Input, OnInit, inject } from '@angular/core';
 import { ApiServiceService } from '../../services/api-service.service';
 import { Result } from '../../../model/character.model';
 import { RouterLink } from '@angular/router';
@@ -16,6 +16,7 @@ export class AllLocationOriginsComponent implements OnInit{
   @Input() locationOrigin?:String;
 
   private _apiService = inject(ApiServiceService)
+  private _eleRef = inject (ElementRef)
   allLocations?:Result[]=[];
 
   ngOnInit(): void {
@@ -25,6 +26,11 @@ export class AllLocationOriginsComponent implements OnInit{
     })
     
   }
-
+  scrollToTop() {
+    this._eleRef.nativeElement.ownerDocument.defaultView.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
 
 }

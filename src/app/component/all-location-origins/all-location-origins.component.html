@@ -4,7 +4,7 @@
     <div class="locationContainer__body">
 
         @for(location of allLocations; track $index){
-            <button class="locationButton" type="button" [routerLink]="['/location/' + location.id]" >   
+            <button class="locationButton" type="button" [routerLink]="['/location/' + location.id]" (click)="scrollToTop()">   
             
                 <div class="card border-dark mb-3" style="max-width: 18rem;" >
                     <div class="card-header">Type: {{location?.type}}</div>
