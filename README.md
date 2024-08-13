@@ -1,27 +1,35 @@
-# RickAndMortyWiki
+<h1 align="left">Hola!!👋 Bienvenido!!!</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.1.
+###
 
-## Development server
+<h2 align="left">About me 👨</h2>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+###
 
-## Code scaffolding
+<p align="left">Soy Gastón, un apasionado desarrollador frontend en búsqueda de nuevos desafíos y oportunidades para crecer profesionalmente. Constantemente busco mejorar en todas las actividades que realizo, siempre enfocado en obtener los mejores resultados. Estoy ansioso por incorporar nuevas herramientas y experiencias en mi repertorio. Estoy emocionado por la oportunidad de aplicar mis habilidades y conocimientos en un nuevo entorno.</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+###
 
-## Build
+<h2 align="left">Mi proyecto **Rick and Morty Wiki**🧪</h2>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+###
 
-## Running unit tests
+<p align="left">Este proyecto esta realizado en Angular.Js. Es una aplicación donde puedo buscar los personajes de Rick and Morty utilizando la API. En la pantalla principal podemos encontrar varios componentes, navbar, personajes, lugares y footer. En el navBar tiene botones enrutados que nos llevan a diferentes rutas, y un buscador realizadon con formularios reactivos. Al seleccionar el personaje nos muestra en detalle el personaje seleccionado.Esta App es para smartphone.</p>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+###
 
-## Running end-to-end tests
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="40" alt="angularjs logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
+</div>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+###
