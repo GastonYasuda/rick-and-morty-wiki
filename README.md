@@ -10,7 +10,7 @@
 
 ###
 
-<h2 align="left">Mi proyecto **Rick and Morty Wiki**🧪</h2>
+<h2 align="left">Mi proyecto 🧪🧪 Rick and Morty Wiki 🧪🧪</h2>
 
 ###
 
